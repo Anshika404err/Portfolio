@@ -18,7 +18,7 @@ export const Projects = () => {
       title: "Google Keep Clone",
       description: "For mainting your daily taks",
       imgUrl: keepclone,
-      link:"https://github.com/Anshika404err/Google-Keep-Clone",
+      link:"https://google-keep-clone-ruby.vercel.app/",
     },
     {
       title: "Bird Game",
