@@ -9,19 +9,22 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 export const Projects = () => {
   const projects = [
      {
-      title: "Business Startup",
+      title: "Daily Journal",
       description: "Design & Development",
       imgUrl: dailyjournal,
+      link:"https://github.com/Anshika404err/Daily-Journal",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Google Keep Clone",
+      description: "For mainting your daily taks",
       imgUrl: keepclone,
+      link:"https://github.com/Anshika404err/Google-Keep-Clone",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Bird Game",
+      description: "A very basic game ",
       imgUrl: flappybird,
+      link:"https://github.com/Anshika404err/FLAPPY-YASSO",
     },
     
   ];

@@ -1,5 +1,5 @@
 import { NavBar } from "./components/NavBar";
-import {BrowserRouter as Router} from "react-router-dom";
+
 import './App.css';
 import {Banner} from './components/Banner';
 import {Skills} from './components/Skills';
@@ -9,14 +9,16 @@ import {Footer} from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <NavBar />
-      <Banner />
-      <Projects />
-      <Skills />
-      <Footer />
-      
-    </Router>
+    <>
+  <NavBar />
+  <main>
+    <Banner />
+    <Skills />
+    <Projects />
+  </main>
+  <Footer />
+</>
+
   );
 }
 

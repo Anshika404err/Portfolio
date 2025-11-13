@@ -2,7 +2,7 @@ import {useState,useEffect} from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.png';
 import linkedin from '../assets/img/linkedin.svg';
 import github from '../assets/img/github.svg';
 import mail from '../assets/img/mail.svg';
@@ -43,9 +43,27 @@ export const NavBar = () =>{
           </Nav> {/*for social call outss etc.etc. on other side*/}
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#https://www.linkedin.com/in/anshika-mishra-ans/"><img src={linkedin} alt=""/> </a>
-              <a href="#https://github.com/Anshika404err"><img src={github} alt=""/>  </a>
-              <a href="#anshika99blends@gmail.com"><img src={mail} alt=""/>   </a>
+                <a
+        href="https://www.linkedin.com/in/anshika-mishra-ans/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={linkedin} alt="LinkedIn" />
+      </a>
+      <a
+        href="https://github.com/Anshika404err"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={github} alt="GitHub" />
+      </a>
+      <a
+        href="mailto:anshika99blends@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={mail} alt="Email" />
+      </a>
               </div>
             <button className="vvd" onClick={()=>console.log('connect')}><span>Let's Connect</span></button>
           </span>
