@@ -4,8 +4,8 @@ import { ProjectCard } from "./ProjectCard";
 import dailyjournal from "../assets/img/dailyjournal.png";
 import keepclone from "../assets/img/keepclone.png";
 import flappybird from "../assets/img/flappybird.png";
+import expense from "../assets/img/expense.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-
 export const Projects = () => {
   const projects = [
      {
@@ -22,13 +22,17 @@ export const Projects = () => {
     },
     {
       title: "Bird Game",
-      description: "A very basic game ",
+      description: "A very basic birdy game ",
       imgUrl: flappybird,
       link:"https://github.com/Anshika404err/FLAPPY-YASSO",
     },
-    
+    {
+      title:"Paisa_Vasooli",
+      description:"A expense tracker web app that will maintain the individual savings and group splitting fro money as well",
+      imgUrl:expense,
+      
+    }
   ];
-
   return (
     <section className="project" id="project">
       <Container>
@@ -39,7 +43,6 @@ export const Projects = () => {
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center">
-               
               </Nav>
 
               <Tab.Content>
